@@ -1,7 +1,176 @@
-/*
-background-grey: #F4F3F4;
-button-purple: #192592
-main-titles dark-grey: #2C303F;
-paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+body {
+
+  display: flex;
+  max-width: 768px;
+  flex-direction: column;
+  
+}
+
+nav {
+
+  position: fixed;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 85%;
+  margin-left: 50px;
+  margin-top: -20px;
+  background-color: white;
+  border-bottom: 1px solid #85868aa6;
+
+}
+
+.slackLogo{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 100%;
+}
+
+header h1 {
+  font-size: 4.5em;
+  margin-top: 40px;
+  margin-left: 50px;
+  line-height: 65px;
+
+  
+}
+
+header {
+  width: 700px;
+}
+
+
+header p {
+
+  margin-left: 50px;
+  font-size: 2.5em;
+
+}
+
+header input {
+
+  margin-left: 50px;
+  line-height: 100px;
+  font-size: 35px;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid #F4F3F4;
+  
+}
+
+button {
+
+  background-color: rgb(78, 65, 202);
+  line-height: 100px;
+  width: 80%;
+  border: 2px solid  rgb(78, 65, 202);
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+
+}
+
+.email{
+  margin: 0 0 10px 50px;
+
+}
+
+.slackP {
+
+  margin-top: 20px;
+  margin-left: 160px;
+  font-size: 2em;
+
+}
+
+.slackP a {
+
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.talking {
+
+  margin-top: 25px;
+  justify-content: center;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F4F3F4;
+  
+}
+
+main p {
+
+  font-size: 2em;
+  text-align: center;
+}
+
+main div {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.big-text {
+  width: 100%;
+  margin-top: 160px;
+  text-align: center;
+}
+
+h2 {
+
+  align-items: center;
+  font-size: 3em;
+  
+}
+
+.breakline{
+  margin-left: -60px;
+  background-color: rgb(189, 174, 174);
+}
+
+
+main button {
+
+  color: rgb(78, 65, 202);
+  border: solid 2px rgb(78, 65, 202, .5);
+  background-color: white;
+}
+
+.companies img{
+  height: 60px;
+  width: auto;
+  border-bottom: 1px solid lightgray; 
+  padding: 75px 120px;
+
+}
+
+.format {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.format p{
+
+  font-size: 2.2em;
+  font-weight: 900;
+}
+
+.format a{
+
+  font-size: 2em;
+}
